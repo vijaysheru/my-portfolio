@@ -4,29 +4,40 @@ import { useTheme } from '../hooks/useTheme';
 
 // Certifications data from your resume
 const certifications = [
-    {
-    id: 'infosys-agile',
-    name: 'Infosys Internal Agile Professional',
-    issuer: 'Infosys',
-    year: '2023',
-  },
   {
-    id: 'infosys',
-    name: 'Infosys Internal Java Professional',
-    issuer: 'Infosys',
-    year: '2022',
-  },
-  {
-    id: 'coursera-ml',
+    id: 'coursera-ml-specialization',
     name: 'Machine Learning Specialization',
-    issuer: 'Coursera (Andrew Ng, deeplearning.ai)',
+    issuer: 'Coursera',
     year: '2024',
+    url: '', // Add your certificate URL if you want
   },
   {
     id: 'coursera-mlops',
     name: 'Machine Learning Operations (MLOps)',
-    issuer: 'Coursera (Andrew Ng, Stanford University)',
-    year: '2025',
+    issuer: 'Coursera',
+    year: '2024',
+    url: '',
+  },
+  {
+    id: 'aws-cloud-practitioner',
+    name: 'AWS Cloud Practitioner',
+    issuer: 'AWS',
+    year: '2022',
+    url: '',
+  },
+  {
+    id: 'infosys-java',
+    name: 'Internal Java Developer',
+    issuer: 'Infosys',
+    year: '2022',
+    url: '',
+  },
+  {
+    id: 'infosys-agile',
+    name: 'Infosys Internal Agile Certification',
+    issuer: 'Infosys',
+    year: '2022',
+    url: '',
   },
 ];
 
